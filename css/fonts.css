@@ -1,0 +1,19 @@
+@font-face{
+
+font-family: 'HelveticaNeueCyr';
+
+src: url('../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.eot');
+
+src: url('../fonts/WebFont.eot?iefix') format('eot'),
+
+url('../fonts/HelveticaNeue/HelveticaNeueCyr-MediumItalic.woff') format('woff'),
+
+url('../fonts/WebFont.ttf') format('truetype'),
+
+url('../fonts/WebFont.svg#webfont') format('svg');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
