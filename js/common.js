@@ -10,3 +10,25 @@ $(function() {
 
 
 });
+
+function FunChbox() {
+    var chbox, btnSend;
+
+    chbox = document.getElementById('check');
+    btnSend = document.getElementById('btn-send');
+
+
+        if (chbox.checked==true){
+            btnSend.disabled = false;
+        }
+        if (chbox.checked==false){
+            btnSend.disabled = true;
+        }
+
+
+    }
+
+
+
+
+

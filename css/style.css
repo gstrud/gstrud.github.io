@@ -298,3 +298,16 @@ h1, h2, h3, h4, h5, h6, .h1, #block-views-front-block .block-title, .h2, .h3, .r
 .btn-send {
   border: none;
   letter-spacing: 1px; }
+
+/*Чекбокс*/
+
+.abtn-send{
+  display: inline-block;
+  padding: 8px 20px;
+  font: 16px/24px Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+.acheckbox:checked ~ .button{
+  background: red;
+}

@@ -174,7 +174,9 @@
                         <label class="form-group"> <span class="color_element">*</span> Ваше сообщение:
                             <textarea name="mesage" placeholder="Ваше сообщение" data-validation-required-message="Вы не ввели сообщение"></textarea> <span class="help-block text-danger"></span> </label>
 
-                        <button class="btn-send" type="submit">Отправить</button>
+                        <input class="checkbox" type="checkbox" id="check" onchange="FunChbox()">
+                        <span>Я согласен (согласна) на обработку моих персональных</span><br><br>
+                        <button id="btn-send" class="btn-send" type="submit" disabled>Отправить</button>
                     </form>
 
                 </div>
