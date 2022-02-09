@@ -1,16 +1,11 @@
 $(function() {
 
-
-
-
     //Валидация для полей формы
     $("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
 
-
-
-
 });
 
+//Checkbox
 function FunChbox() {
     var chbox, btnSend;
 
@@ -24,11 +19,22 @@ function FunChbox() {
         if (chbox.checked==false){
             btnSend.disabled = true;
         }
+};
+
+//Start Checkbox function
+check.onclick = function(){FunChbox();};
 
 
-    }
 
 
 
+//------------------------------------
+/*
+//TEST
+function handler() {
+  alert( 'Спасибо!' );
+};
 
-
+//test = document.getElementById('test');
+test.addEventListener("click", handler);
+*/

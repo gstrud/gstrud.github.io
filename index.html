@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-
+    <title>Трудоустройство</title>
+    <link rel="shortcut icon" href="https://gulkevichi-gst.ru/misc/favicon.ico" type="image/vnd.microsoft.icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
@@ -74,7 +74,7 @@
                                     <div class="views-row views-row-1">
                                         <article class="node node-news node-teaser clearfix">
                                             <header>
-                                                <h2>ОАО "Блок" приглашает выпускников техникума на работу</h2> </header>
+                                                <h2>ОАО "Блок" приглашает выпускников техникума на работу</h2></header>
                                             <div class="field-body">
                                               <p>Обращаться по телефону 8(800) 800-80-80, время работы: с 9:00-17:00</p>
                                                <ul>
@@ -161,9 +161,9 @@
             <div class="row">
                 <div class="col-md-6 col-sm-6 footer-link">
                     <form id="main_form" class="main_form" action="https://formspree.io/f/xyyokjqp" novalidate="" target="_blank" method="post">
-                        <h2>Форма запроса</h2>
+                        <h2>Форма заявки</h2>
                         <label class="form-group"> <span class="color_element">*</span> Ваше имя:
-                            <input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Вы не ввели имя" required/> <span class="help-block text-danger"></span> </label>
+                            <input  type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Вы не ввели имя" required/> <span class="help-block text-danger"></span> </label>
 
                             <label for="telephone" class="form-group"><span class="color_element">*</span> Номер телефона:
                             <input type="telephone" name="telephone" id="telephone" placeholder="8(555) 555-5555" data-validation-required-message="Вы не ввели номер телефона" novalidate><span class="help-block text-danger"></span></label>
@@ -174,7 +174,8 @@
                         <label class="form-group"> <span class="color_element">*</span> Ваше сообщение:
                             <textarea name="mesage" placeholder="Ваше сообщение" data-validation-required-message="Вы не ввели сообщение"></textarea> <span class="help-block text-danger"></span> </label>
 
-                        <input class="checkbox" type="checkbox" id="check" onchange="FunChbox()">
+                        <input class="checkbox" type="checkbox" id="check" >
+
                         <span>Я согласен (согласна) на обработку моих персональных</span><br><br>
                         <button id="btn-send" class="btn-send" type="submit" disabled>Отправить</button>
                     </form>
@@ -201,7 +202,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-8">
-                            <p>© 2015 — 2022 г. | ГБПОУ КК Гулькевичский строительный техникум | <i class="fa fa-phone" aria-hidden="    "></i> (+7-861-60)-3-44-21 </p>
+                            <p>© 2015 — <script> var CurrentYear = new Date().getFullYear(); document.write(CurrentYear)</script>г. | ГБПОУ КК Гулькевичский строительный техникум | <i class="fa fa-phone" aria-hidden="    "></i> (+7-861-60)-3-44-21 </p>
                             <p><i class="fa fa-map-marker" aria-hidden="true"></i> 352190, Краснодарский край, г.Гулькевичи, ул.Советская, 41 </p>
                         </div>
                     </div>
@@ -215,6 +216,7 @@
 
    <script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
     <script src="js/common.js"></script>
+
 
 </body>
 
