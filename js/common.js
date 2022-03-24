@@ -27,7 +27,6 @@ check.onclick = function(){FunChbox();};
 
 
 
-
 //------------------------------------
 /*
 //TEST

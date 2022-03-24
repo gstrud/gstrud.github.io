@@ -1,0 +1,31 @@
+@media screen and (max-width: 950px) {
+
+.main_form {
+   padding-left: 15px;
+}
+    .footer .wrapper-upper{
+        padding-right: 15px;
+    }
+}
+
+/*
+    element.style {
+    max-width: 900px;
+}
+
+}
+@media (min-width: 768px)
+.col-md-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+@media (min-width: 576px)
+.col-sm-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+*/
