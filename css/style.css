@@ -387,13 +387,13 @@ h1, h2, h3, h4, h5, h6, .h1, #block-views-front-block .block-title, .h2, .h3, .r
 a.button {
     color: rgba(255, 255, 255, 0.85);
     box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
-     background:rgba(10, 150, 40, 0.7);
+    background:rgba(10, 150, 40, 0.7);
 }
 
 a.button:hover {
     color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(27, 177, 207, 0.7) 0 0px 0px 40px inset;
-   /* background:rgba(27, 177, 207, 0.7);*/
+    box-shadow: rgba(12, 179, 51, 0.7) 0 0px 0px 40px inset;
+
 }
 
 /*
