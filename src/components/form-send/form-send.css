@@ -1,0 +1,38 @@
+.form {
+  background-color: #eaecee;
+  padding: 15px 10px;
+}
+.form-send {
+  margin-top: 35px;
+}
+.form-send label {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.worker-info {
+  text-align: center;
+  margin-top: 35px;
+}
+.black {
+  border-bottom: 1px solid #000;
+  width: 80%;
+  margin: 15px auto;
+}
+
+.btn-send {
+  padding: 15px 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.form-send input,
+textarea {
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.form-send input[type='checkbox'] {
+  padding: 10px;
+  margin-right: 15px;
+}
