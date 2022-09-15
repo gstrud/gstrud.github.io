@@ -1,0 +1,21 @@
+.search-panel-app {
+  margin: 25px 0;
+  padding: 10px;
+}
+
+.search-panel-app input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+.search-panel-app input:focus {
+  outline: 2px;
+  border-color: #0c63e4;
+  background-color: #e7f1ff;
+}
+/*
+.search-panel {
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+}*/

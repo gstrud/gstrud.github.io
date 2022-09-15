@@ -1,0 +1,32 @@
+.hide-description {
+}
+.show {
+  border: none;
+  background-color: #f6f9fc;
+}
+.bt {
+  padding: 16px 20px;
+  font-weight: 400;
+}
+
+.list-group-item span {
+  font-weight: lighter;
+}
+
+/*.list-group-item .label:hover{
+    cursor: pointer;
+    font-weight: normal;
+
+}*/
+.accordion-header {
+  width: 100%;
+}
+
+.accordion-header.show {
+  border: none;
+}
+.item .list .accordion-header,
+.item .list button,
+.accordion-body {
+  font-size: 18px;
+}
