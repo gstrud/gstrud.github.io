@@ -17,7 +17,7 @@ export default class FormSend extends Component {
             <div className='black'></div>
             <form
               className='row g-3 form-send'
-              action='https://formspree.io/gstrud@mail.ru'
+              action='https://formspree.io/f/mrgdpqoq'
               method='POST'
             >
               <div>
