@@ -20,6 +20,7 @@
 }
 @media (max-width: 680px) {
   #scrollUp i {
-    bottom: 21%;
+    bottom: 7%;
+    color: #007cdc;
   }
 }
