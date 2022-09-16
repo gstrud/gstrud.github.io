@@ -13,7 +13,13 @@ export default class VideoHeadApp extends Component {
 
         <div className='up-menu'>
           <div className='up-menu-text'>
-            <h1>Информационный центр</h1>
+            <div className='nameSite'>
+              <h1>Информационный центр</h1>
+            </div>
+            <div className='nameSiteMobile'>
+              <h1>Информационный центр ГСТ</h1>
+            </div>
+
             <p>
               Деятельность ИЦ ГСТ направлена в помощь по трудоустройству
               студентов и выпускников.

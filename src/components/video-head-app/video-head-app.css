@@ -54,3 +54,40 @@ p {
   width: 80%;
   margin: 15px auto;
 }
+.nameSiteMobile {
+  display: none;
+}
+
+@media (max-width: 680px) {
+  .up-menu {
+    position: initial;
+  }
+  .up-menu-text {
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+  }
+  .nameSiteMobile {
+    display: block;
+  }
+  .nameSite {
+    display: none;
+  }
+  .up-menu-text p {
+    display: none;
+  }
+  .up-menu-button {
+    display: block;
+  }
+  .up-menu-button button {
+    margin: 35px 0 0 0;
+    width: 80%;
+  }
+  .video-head-cont {
+    background-color: #1a2c3d;
+    padding: 45px 0;
+  }
+  .video-head-cont .fluid {
+    display: none;
+  }
+}

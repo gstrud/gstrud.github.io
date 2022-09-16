@@ -13,8 +13,13 @@
 }
 .isShowBtn {
   opacity: 1;
-  transition: 0.4s;
+  transition: 0.6s;
 }
 .hide {
   opacity: 0;
+}
+@media (max-width: 680px) {
+  #scrollUp i {
+    bottom: 21%;
+  }
 }

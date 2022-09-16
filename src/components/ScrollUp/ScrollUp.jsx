@@ -18,7 +18,7 @@ const ScrollUp = () => {
     }
   };
   return (
-    <div id='scrollUp' className='isShowBtn' onClick={MoveUp}>
+    <div id='scrollUp' className='isShowBtn hide' onClick={MoveUp}>
       <i className='bi bi-arrow-up-circle-fill'></i>
     </div>
   );
