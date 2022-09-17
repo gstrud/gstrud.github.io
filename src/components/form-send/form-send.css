@@ -9,10 +9,7 @@
   padding-top: 10px;
   font-size: 18px;
 }
-.worker-info {
-  text-align: center;
-  margin-top: 35px;
-}
+
 .black {
   border-bottom: 1px solid #000;
   width: 80%;
@@ -35,4 +32,12 @@ textarea {
 .form-send input[type='checkbox'] {
   padding: 10px;
   margin-right: 15px;
+}
+@media (max-width: 680px) {
+  .form-send {
+    margin-top: 0;
+  }
+  .black {
+    margin: 0 auto;
+  }
 }

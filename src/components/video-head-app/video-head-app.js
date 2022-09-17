@@ -16,6 +16,7 @@ export default class VideoHeadApp extends Component {
             <div className='nameSite'>
               <h1>Информационный центр</h1>
             </div>
+            <div className='up-menu-line-2'></div>
             <div className='nameSiteMobile'>
               <h1>Информационный центр ГСТ</h1>
             </div>

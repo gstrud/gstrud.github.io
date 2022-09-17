@@ -7,11 +7,24 @@
   width: 100%;
   padding: 10px;
   font-size: 18px;
+  border: 2px solid #3480d9;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 .search-panel-app input:focus {
   outline: 2px;
   border-color: #0c63e4;
   background-color: #e7f1ff;
+}
+.worker-info {
+  margin: 55px 0;
+
+  text-align: center;
+}
+@media (max-width: 680px) {
+  .worker-info {
+    margin-bottom: 0;
+  }
 }
 /*
 .search-panel {

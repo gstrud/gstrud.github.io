@@ -49,16 +49,23 @@ p {
   padding: 10px 40px;
   margin-right: 5px;
 }
-.up-menu-line {
+.up-menu-line,
+.up-menu-line-2 {
   border-bottom: 2px solid #fff;
   width: 80%;
   margin: 15px auto;
+}
+.up-menu-line-2 {
+  display: none;
 }
 .nameSiteMobile {
   display: none;
 }
 
 @media (max-width: 680px) {
+  .up-menu-line-2 {
+    display: block;
+  }
   .up-menu {
     position: initial;
   }
@@ -69,6 +76,7 @@ p {
   }
   .nameSiteMobile {
     display: block;
+    padding: 15px 0;
   }
   .nameSite {
     display: none;
@@ -82,6 +90,9 @@ p {
   .up-menu-button button {
     margin: 35px 0 0 0;
     width: 80%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
   }
   .video-head-cont {
     background-color: #1a2c3d;
