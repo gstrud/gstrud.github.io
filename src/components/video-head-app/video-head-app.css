@@ -61,7 +61,11 @@ p {
 .nameSiteMobile {
   display: none;
 }
-
+@media (max-width: 900px) {
+  .up-menu {
+    top: 15%;
+  }
+}
 @media (max-width: 680px) {
   .up-menu-line-2 {
     display: block;
