@@ -239,7 +239,7 @@ export default class App extends Component {
         id: 10,
         company: 'АО "Племзавод Гулькевичский"',
         address:
-          'Россия, Краснодарский край, Гулькевичский район, г.Гулькевичи. За дополнительной информацией обращаться в ИЦ ГСТ',
+          'Россия, Краснодарский край, Гулькевичский район, г.Гулькевичи. За дополнительной информацией обращаться в ИЦ ГСТ.',
         job: [
           {
             title: 'Слесарь-ремонтник 5 разряда',
@@ -259,7 +259,7 @@ export default class App extends Component {
     ],
   };
 
-  onSearchChange = (term) => {
+  onSearchChange = term => {
     this.setState({ term });
   };
 
